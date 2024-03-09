@@ -1,0 +1,44 @@
+{
+  "settings": {
+    "heading": "Opvoeder-Kind Interactie",
+    "title": "Налаштування",
+    "form": {
+      "name": "Імя",
+      "name.placeholder": "Імя",
+      "language": "Мова",
+      "button": "Opslaan",
+      "deleteAccount": "Account verwijderen",
+      "professionalAssociationRegistrationNumber.placeholder": "Registratienummer",
+      "professionalAssociation.placeholder": "Werkgebied",
+      "email.placeholder": "Uw мейл"
+    },
+    "delete": {
+      "question": "Weet je zeker dat je account wilt verwijderen??",
+      "title": "Account verwijderen"
+    },
+    "messages": {
+      "error": {
+        "fail": "<strong>Er is een fout opgetreden!</strong> Instellingen kunnen niet worden opgeslagen.",
+        "emailexists": "<strong>Email is al in gebruik!</strong> Gelieve een andere te kiezen."
+      },
+      "success": "<strong>Instellingen opgeslagen!</strong>",
+      "success-delete": "<strong>Uw account is succesvol verwijderd!</strong>",
+      "validate": {
+        "name": {
+          "required": "Uw naam is vereist.",
+          "minlength": "Uw naam moet minstens 1 tekens lang zijn",
+          "maxlength": "Uw naam kan niet langer zijn dan 50 tekens"
+        },
+        "email": {
+          "required": "E-mailadres is een verplicht veld.",
+          "invalid": "Uw email is ongeldig.",
+          "minlength": "Je e-mailadres moet minstens 5 tekens lang zijn.",
+          "maxlength": "Uw email kan niet langer zijn dan 50 tekens."
+        },
+        "professionalAssociation": {
+          "required": "Werkgebied is vereist"
+        }
+      }
+    }
+  }
+}
